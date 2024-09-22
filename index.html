@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <section class="Forms">
+        <h1>Aula de Forms</h1>
+
+        <form name="signup" onsubmit="alert('enviei o Formulario')" method="post" action="#">
+            Nome: <input type="text" name="name" /><br>
+            idade: <input type="number" name="age" /><br>
+            senha: <input type="password" name="password" /><br>
+            <button type="submit">enviar</button>
+        </form>
+    </section>
+    
+    <section class="input">
+        <h1>Aula de Input</h1>
+
+        <form>
+            <label for="">Text: </label><input type="text" /><br>
+            <label>Number: </label><input type="number" min="0" max="100" /><br>
+            <label>Range: </label><input type="range" /><br> 
+            <label>Color: </label><input type="color" /><br> 
+            <label>E-mail: </label><input type="email" /><br> 
+            <label>Url: </label><input type="url" /><br> 
+            <label>Date: </label><input type="date" /><br> 
+            <label>radio: </label><input type="radio" /><br> 
+            <label>File: </label><input type="file" /><br> 
+            <label>Search: </label><input type="search" /><br> 
+            <label>Chekbox: </label><input type="checkbox" /><br> 
+            <label>Button: </label><input type="button" value="Enviar" /><br> 
+        </form>
+
+    </section>
+
+    <section class="radio">
+        <h1>checkbox e radio</h1>
+
+        <form method="get">
+            <h3>Você selecionou: Pizza de Calabresa</h3>
+            <p>Quais Opcionais você deseja?</p>
+            <input type="checkbox" name="opcional[]" value="queijo"> + queijo <br>
+            <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
+            <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
+            <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
+            
+            <p>Borda recheada</p>
+            <input type="radio" name="borda" value="sim">Sim <br>
+            <input type="radio" name="borda" value="nao">Não <br>
+            
+            <p>bebida</p>
+            <input type="radio" name="bebida" value="suco">Suco <br>
+            <input type="radio" name="bebida" value="refrigerante">Refrigerante <br>
+            <input type="radio" name="bebida" value="agua">Agua <br>
+            <input type="radio" name="bebida" value="nenhum">Nenhum <br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="button">
+        <h1>Button</h1>
+
+        <form method="get">
+            <label>Nome:</label><input type="text" name=""><br>
+            <label>idade:</label><input type="number" name="age"><br>
+            <label>Password :</label><input type="password" name="password"><br>
+            
+            <button type="reset">limpar</button>
+        </form>
+    </section>
+
+    <section class="select">
+        <h1>select</h1>
+
+        <form onsubmit="" method="get">
+            <label>Nome:</label><input type="text" name="name"><br>
+            <label>Cargo: </label>
+            <select name="role">
+                <option value="">selecione o cargo</option>
+                <option value="administrativo">administrativo</option>
+                <option value="gerente">gerente</option>
+                <option value="">selecione o cargo</option>
+                <option value="">selecione o cargo</option>
+            </select><br>
+            <label>Assunto:</label><input type="text" name="subject"><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <section class="textarea">
+        <h1>textarea</h1>
+
+        <label>mensagem</label>
+        <textarea rows="20" cols="30" name="" id=""></textarea>
+        <button type="submit">enviar</button>
+    </section>
+</body>
+</html>
