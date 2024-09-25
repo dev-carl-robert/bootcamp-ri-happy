@@ -1,24 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trilha front end</title>
+
+    <style>
+        .row {
+            margin: 5px;
+        }
+
+        label {
+            width: 100px;
+            text-align: right;
+            display: inline-block;
+            padding-right: 5px;
+        }
+    </style>
 </head>
+
 <body>
     <blockquote>
         Progame<sup>*</sup> o seu futuro global agora!
     </blockquote>
 
-    <b>Progame</b>          <br>
+    <b>Progame</b> <br>
 
-    <strong>Progame</strong>        <br>
+    <strong>Progame</strong> <br>
 
     <p>
         <font color="red" face="Arial">Progame</font> o seu futuro global agora!
     </p>
 
-    <div></div>
-    
+    <div id="menu">
+        <div class="links">
+            <ul>
+                <h2>
+                    Dio<span>
+                        <font color="red">.</font>
+                    </span>me
+                </h2>
+                <li class="link"><a href="">link 1</a></li>
+                <li class="link"><a href="">link 2</a></li>
+                <li class="link"> <a href="">link 3</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <form>
+        <h1>Formulario de cadastro</h1>
+        <fieldset>
+            <legend>dados pessoais</legend>
+            <div class="row">
+                <label>Nome:</label><input type="text">
+                <label>Profissão:</label><input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Endereço</legend>
+            <div class="row">
+                <label>Endereço:</label><input type="text">
+                <label>Bairro:</label><input type="text">
+            </div>
+            <div class="row">
+                <label>Cidade:</label><input type="text">
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>contato</legend>
+            <div class="row">
+                <label>Celular:</label><input type="text">
+                <label>whatsapp:</label><input type="text">
+            </fieldset>
+        </div>
+    </form>
+
+    <iframe src="https://www.dio.me/" frameborder="0"></iframe>
 </body>
+
 </html>
