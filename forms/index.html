@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario de cadastro</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Gowun+Batang:wght@400;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <section class="Forms">
         <h1>Aula de Forms</h1>
 
         <form name="signup" onsubmit="alert('enviei o Formulario')" method="post" action="#">
-            Nome: <input type="text" name="name" /><br>
-            idade: <input type="number" name="age" /><br>
-            senha: <input type="password" name="password" /><br>
+            <label class="row">Nome:</label><input type="text" name="name" /><br>
+            <label class="row">idade:</label><input type="number" name="age" /><br>
+            <label class="row">senha:</label><input type="password" name="password" /><br>
             <button type="submit">enviar</button>
         </form>
     </section>
-    
+
     <section class="input">
         <h1>Aula de Input</h1>
 
         <form>
             <label for="">Text: </label><input type="text" /><br>
             <label>Number: </label><input type="number" min="0" max="100" /><br>
-            <label>Range: </label><input type="range" /><br> 
-            <label>Color: </label><input type="color" /><br> 
-            <label>E-mail: </label><input type="email" /><br> 
-            <label>Url: </label><input type="url" /><br> 
-            <label>Date: </label><input type="date" /><br> 
-            <label>radio: </label><input type="radio" /><br> 
-            <label>File: </label><input type="file" /><br> 
-            <label>Search: </label><input type="search" /><br> 
-            <label>Chekbox: </label><input type="checkbox" /><br> 
-            <label>Button: </label><input type="button" value="Enviar" /><br> 
+            <label>Range: </label><input type="range" /><br>
+            <label>Color: </label><input type="color" /><br>
+            <label>E-mail: </label><input type="email" /><br>
+            <label>Url: </label><input type="url" /><br>
+            <label>Date: </label><input type="date" /><br>
+            <label>radio: </label><input type="radio" /><br>
+            <label>File: </label><input type="file" /><br>
+            <label>Search: </label><input type="search" /><br>
+            <label>Chekbox: </label><input type="checkbox" /><br>
+            <label>Button: </label><input type="button" value="Enviar" /><br>
         </form>
 
     </section>
@@ -47,11 +57,11 @@
             <input type="checkbox" name="opcional[]" value="calabresa"> + calabresa <br>
             <input type="checkbox" name="opcional[]" value="cebola"> + cebola <br>
             <input type="checkbox" name="opcional[]" value="azeitona"> + azeitona <br>
-            
+
             <p>Borda recheada</p>
             <input type="radio" name="borda" value="sim">Sim <br>
             <input type="radio" name="borda" value="nao">Não <br>
-            
+
             <p>bebida</p>
             <input type="radio" name="bebida" value="suco">Suco <br>
             <input type="radio" name="bebida" value="refrigerante">Refrigerante <br>
@@ -69,7 +79,7 @@
             <label>Nome:</label><input type="text" name=""><br>
             <label>idade:</label><input type="number" name="age"><br>
             <label>Password :</label><input type="password" name="password"><br>
-            
+
             <button type="reset">limpar</button>
         </form>
     </section>
@@ -100,4 +110,5 @@
         <button type="submit">enviar</button>
     </section>
 </body>
+
 </html>
