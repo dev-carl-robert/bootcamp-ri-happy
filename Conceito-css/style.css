@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: coral;
+}
+li {
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+#cores {
+    color: coral;
+    background-color: #c23d;
+}
+
+#hex {
+    color: #c23d;
+    background-color: #fc3dff80;
+}
+
+#hex-transparencia {
+    color: #fc3dff80;
+    background-color: rgb(125, 200, 100);
+}
+
+#rgb {
+    color: rgb(125, 200, 100);
+    background-color: rgb(100, 120, 120, .8);
+}
+
+#rgba {
+    color: rgb(100, 120, 120, .8);
+    background-color: hsl(10, 90%, 20%);
+}
+
+#hsl {
+    color: hsl(10, 90%, 20%);
+    background-color: hsl(10, 90%, 20%, .6);
+}
+
+#hsla {
+    color: hsl(10, 90%, 20%, .6);
+    background-color: coral;
+}

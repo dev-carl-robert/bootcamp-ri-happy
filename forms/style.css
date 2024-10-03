@@ -18,11 +18,11 @@ section {
     display: flex;
     width: 44rem;
     height: 31.7rem;
-    padding: 3rem;
+    padding: 5rem;
+    flex-wrap: nowrap;
     border: 5px solid #023246;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 h1 {
